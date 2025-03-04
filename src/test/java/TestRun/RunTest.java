@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 	glue= {"Stepdefnition","Hooks"},
 	dryRun=false,
 	monochrome=true,
-	plugin= {"pretty","html:test-output.html"}
+	plugin= {"pretty","json:target/cucumber-reports/Cucumber.json"}
 		)
 
 public class RunTest {
