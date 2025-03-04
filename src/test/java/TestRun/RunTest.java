@@ -11,7 +11,6 @@ import io.cucumber.junit.CucumberOptions;
 	(
 	features= {".//Features/login.feature"},
 	glue= {"Stepdefnition","Hooks"},
-	tags= "@Sanity",
 	dryRun=false,
 	monochrome=true,
 	plugin= {"pretty","html:test-output.html"}
